@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingCart, BookOpen, Zap, Users, Search, X, Menu, ArrowRight, Star, Download, Play } from 'lucide-react';
+import { ShoppingCart, BookOpen, Zap, Search, X, Menu, ArrowRight, Star, Download } from 'lucide-react';
 
 export default function EmbrosensePlatform() {
   const [currentPage, setCurrentPage] = useState('home');
